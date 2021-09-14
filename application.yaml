@@ -1,0 +1,31 @@
+server:
+  port: 8001
+
+#Local Mysql config
+spring:    
+  
+  mail:
+     host: smtp.gmail.com
+     port: 587
+     username: uralmailapi@gmail.com
+     password: #sifre
+  
+     properties:  
+       mail:
+          smtp:
+               auth: true
+               connectiontimeout: 5000
+               timeout: 5000
+               writetimeout: 5000
+               starttls:
+                    enable: true
+
+                
+                
+            
+project-constants:
+   mailAddressTo:
+     - "uralsaluk@gmail.com"
+     - "uralsaluk@icloud.com" 
+     - "burak.satirci@hotmail.com"
+     
