@@ -15,6 +15,7 @@ target/
 *.yaml
 .yaml
 application.yaml
+*.yml
 
 ### IntelliJ IDEA ###
 .idea
