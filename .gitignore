@@ -12,10 +12,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
-*.yaml
-.yaml
-application.yaml
-*.yml
+/application.yaml
 
 ### IntelliJ IDEA ###
 .idea
